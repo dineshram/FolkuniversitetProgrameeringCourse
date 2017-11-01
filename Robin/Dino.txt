@@ -1,0 +1,24 @@
+Hei! 
+
+Good luck mate. 
+
+
+So basically I did roughly something like this for the curriculum:
+
+   I - Basics (strings, lists, data structures, functions etc)
+  II - GIT ( start to collaborate right away)
+ III - Turtle 
+  IV - Networks (HTTP, sockets, protocols)
+   V - Turtle + Networks (Make games)
+
+What made a great success was to divide and conquer.
+Make the students that learn fast do more advanced stuff.
+Always make them work together on a project with a scope they can manage during class.
+And then at the end of the course they get a project
+(typically: make a game with turtle and multiplayer)
+where they have to do work between the lectures to be able to finish it.
+And they have to collaborate online using github.
+
+
+What to check out first:
+  Palindrome and Ciphers

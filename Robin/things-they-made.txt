@@ -1,0 +1,11 @@
+These are some repositories on github that was made during the course by
+Jonas Solsvik (mostly) and in collaboration within the class. 
+
+
+https://github.com/Arxcis/Sentence-Crusher
+
+https://github.com/Arxcis/TurtleCarts
+
+https://github.com/Arxcis/Solsystemet-PlanetObjects
+
+https://github.com/Arxcis/PenOgTusj
