@@ -1,0 +1,66 @@
+Google Python classes
+https://developers.google.com/edu/python/introduction
+
+https://www.learnpython.org/en/Welcome
+
+https://opensource.com/education/16/4/teaching-python-and-more-with-oer
+
+http://www.pythonlearn.com
+
+https://www.jetbrains.com/help/pycharm-edu/educator-s-guide.html
+
+https://adriann.github.io/programming_problems.html
+
+https://projecteuler.net/archives
+
+Advanced
+http://introtopython.org/visualization_earthquakes.html
+
+https://github.com/ideoforms/python-twitter-examples
+
+https://github.com/ideoforms/python-twitter-examples/blob/master/twitter-trends.py
+
+http://mike.verdone.ca/twitter/
+
+
+Swap the values of 2 variables
+Sorting of numbers
+
+Write a program that reads an integer from input, representing someone's age. If the age is 18 or larger, print outYou can vote. If the age is between 0 and 17 inclusive, print out Too young to vote. If the age is less than 0, print outYou are a time traveller.
+
+
+Egg cartons each hold exactly 12 eggs. Write a program which reads an integer number of eggs from input(), then prints out two numbers: how many cartons can be filled by these eggs, and how many eggs will be left over.
+
+
+This program takes two lines of input. The first line is a "starting time" expressed in a 24-hour clock with leading zeroes, like 08:30 or 14:07. The second line is a duration D in minutes. Print out what time it will be D minutes after the starting time. For example, for input
+
+Design
+---------
+
+build one part at a time
+solve some examples by hand
+plan your code before you start writing it
+write the code
+test the examples that you have solved by hand
+test additional examples including “borderline” and random cases
+
+
+
+# create an empty address book dictionary
+addressBook = {}
+
+# read entries till an empty string
+print
+name = raw_input("Type the Name - leave blank to finish")
+while name != "":
+   entry = raw_input("Type the Street, Town, Phone. Leave blank to finish")
+   addressBook[name] = entry
+   name = raw_input("Type the Name - leave blank to finish")
+
+# now ask for one to display
+name = raw_input("Which name to display?(blank to finish)")
+while name != "":
+   print name, addressBook[name]
+   name = raw_input("Which name to display?(blank to finish)")
+
+
