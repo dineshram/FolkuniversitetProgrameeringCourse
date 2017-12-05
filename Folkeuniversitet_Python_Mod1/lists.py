@@ -1,14 +1,14 @@
-import urllib2
-import urllib
+from urllib.request import urlopen
+import urllib.parse
 import json
 
 url = "http://ajax.googleapis.com/ajax/services/search/web?v=1.0&"
 
-query = raw_input("What do you want to search for ? >> ")
+query = input("What do you want to search for ? >> ")
 
-query = urllib.urlencode( {'q' : query } )
+query = urllib.parse.urlencode( {'q' : query } )
 
-response = urllib2.urlopen (url + query ).read()
+response = urlopen (url + query ).read()
 
 data = json.loads ( response )
 

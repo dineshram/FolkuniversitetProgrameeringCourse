@@ -1,7 +1,6 @@
-import bs4
-
 __author__ = 'dram'
 
+import bs4
 import re
 import sys
 from urllib.request import urlopen
