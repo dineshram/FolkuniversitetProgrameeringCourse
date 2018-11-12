@@ -58,3 +58,17 @@ def node_importance():
 
 
 node_importance()
+
+# Output
+#
+# The importance of the nodes are listed below:
+# I( 0 ) =  0.9620140448880639
+# I( 1 ) =  0.9658270683938338
+# I( 2 ) =  0.9601708180852636
+# I( 3 ) =  0.9873311823465837
+# I( 4 ) =  1.020632236427239
+# I( 5 ) =  1.1090742977862826
+# I( 6 ) =  0.994950352072733
+# The sum of importance =  7.0
+#
+# Process finished with exit code 0
